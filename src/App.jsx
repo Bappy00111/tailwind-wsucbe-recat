@@ -4,6 +4,7 @@ import Banner from './component/Banner/Banner'
 import Export from './component/Export/Export'
 import Header from './component/Header/Header'
 import NewsLetter from './component/NewsLetter/NewsLetter'
+import Plance from './component/Plance/Plance'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Banner></Banner>
       <Export></Export>
       <NewsLetter></NewsLetter>
+      <Plance></Plance>
     </div>
   )
 }

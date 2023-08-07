@@ -14,7 +14,7 @@ const Banner = () => {
                 <div className='text-2xl md:text-3xl'>
                   <h1> Learn</h1>
                     <Typed
-                    strings={['Web Development']}
+                    strings={['Web Development','Digetal Markating','App Development']}
                     typeSpeed={150}
                     loop={true}
                     backSpeed={50}
