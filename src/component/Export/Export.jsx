@@ -1,10 +1,11 @@
 import React from 'react';
+import logo from '../../assets/laptop.jpg'
 
 const Export = () => {
     return (
         <div className='max-w-[1240px] border-2 my-10 px-5  mx-auto grid md:grid-cols-2 items-center shadow-xl rounded-xl'>
             <div className=' col-span-1 md:w-[80%] text-center'>
-                <img src="/src/assets/laptop.jpg" alt="" />
+                <img src={logo} alt="" />
             </div>
             <div className='col-span-1 '>
                 <h1 className='text-[#00df9a] font-bold my-2'>LEARN FROM EXPERTS</h1>

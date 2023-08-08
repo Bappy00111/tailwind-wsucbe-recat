@@ -3,8 +3,8 @@ import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineTwitter, AiFillGithub }
 
 const Footer = () => {
     return (
-        <div className='bg-[#2699fb]  p-[100px]'>
-            <div className='max-w-[1240px] mx-auto grid md:grid-cols-4 gap-10'>
+        <div className='bg-[#2699fb]  p-[50px]'>
+            <div className='max-w-[1240px] mx-auto grid md:grid-cols-4 gap-5'>
                 <div>
                     <h2 className='text-2xl font-bold mb-2'>WsCube Tech.</h2>
                     <p className='text-white mb-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, officiis?</p>
