@@ -3,7 +3,8 @@ import logo from '../../assets/laptop.jpg'
 
 const Export = () => {
     return (
-        <div className='max-w-[1240px] border-2 my-10 px-5  mx-auto grid md:grid-cols-2 items-center shadow-xl rounded-xl'>
+       <div className='max-w-[1240px]  mx-auto my-20 px-4'>
+         <div className=' border-2 grid p-4  md:grid-cols-2 items-center shadow-xl rounded-xl'>
             <div className=' col-span-1 md:w-[80%] text-center'>
                 <img src={logo} alt="" />
             </div>
@@ -15,6 +16,7 @@ const Export = () => {
                 <button className='bg-black text-white p-3 rounded  my-2'>Get Sterted</button>
             </div>
         </div>
+       </div>
     );
 };
 
